@@ -26,3 +26,9 @@ let variableOne;
 let secondVariable;
 let yetAnotherVariable;
 let thisIsAnAbsurdlyLongName;
+
+let character = 'Hello';
+console.log(character);
+character = "World";
+let secondCharacter;
+console.log(secondCharacter)
