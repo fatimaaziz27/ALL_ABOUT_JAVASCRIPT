@@ -12,3 +12,11 @@ console.log("#########");
 let variable;
 let word = "javascript";
 console.log(word);
+
+let programmer = "Naomi";
+programmer = "CamperChan";
+console.log(programmer)
+
+let character = 'Hello';
+console.log(character);
+character = "World";
