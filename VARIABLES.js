@@ -36,3 +36,14 @@ console.log(secondCharacter)
 let character = 'Hello';
 let count = 8;
 console.log(count + 1);
+
+const char0 = "     #     ";
+const char1 = "    ###    ";
+const char2 = "   #####   ";
+const char3 = "  #######  ";
+const char4 = " ######### ";
+console.log(char0)
+console.log(char1)
+console.log(char2)
+console.log(char3)
+console.log(char4)
