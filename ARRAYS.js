@@ -39,7 +39,6 @@ let rows = ["Naomi", "Quincy", "CamperChan"];
 rows.push(12);
 console.log(rows);
 
-let rows = ["Naomi", "Quincy", "CamperChan"];
 rows.push("freeCodeCamp");
 let popped = rows.pop();
 console.log(popped);
