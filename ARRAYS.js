@@ -8,3 +8,6 @@ console.log(rows[0]);
 let obj = ["name","age","height"]
 obj [2] = "weight";
 console.log(obj);
+
+console.log(rows.length);
+console.log(rows.length - 1);
