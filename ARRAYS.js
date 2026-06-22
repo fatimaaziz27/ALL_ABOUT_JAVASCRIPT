@@ -34,3 +34,7 @@ console.log(cities);
 // [ 'london', 'new york', 'mumbai' ]
 // [ 'london', 'new york', 'mexico' ]
 // [ 'london', 'new york', 'mexico', 'karachi' ]
+
+let rows = ["Naomi", "Quincy", "CamperChan"];
+rows.push(12);
+console.log(rows);
