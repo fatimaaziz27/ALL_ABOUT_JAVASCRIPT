@@ -1,6 +1,8 @@
 
 let array = [];
 let array = ["first", "second"];
+let array = [1, 2];
+let array = ["first", 2];
 
 let rows = ["Naomi", "Quincy", "CamperChan"];
 console.log(rows[0]);
