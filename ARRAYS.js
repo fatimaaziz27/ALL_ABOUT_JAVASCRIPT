@@ -14,6 +14,16 @@ console.log(obj);
 console.log(rows.length);
 console.log(rows.length - 1);
 
+let cities = ["London", "New York", "Mumbai"];
+console.log(cities);
+cities[cities.length - 1] = "Mexico City";
+console.log(cities);
+console.log(rows);
+// output
+// [ 'London', 'New York', 'Mumbai' ]
+// [ 'London', 'New York', 'Mexico City' ]
+// [ 'Naomi', 'Quincy', 'CamperChan' ]
+
 let cities = ["london","new york","mumbai"];
 console.log(cities);
 cities[2] = "mexico"
