@@ -25,3 +25,9 @@ function padRow() {
 }
 const call = padRow();
 console.log(call);
+
+// With Parameters
+// function sayName(firstName, lastName) {
+//   return "John Doe";
+// }
+// sayName("Camper", "Cat");
