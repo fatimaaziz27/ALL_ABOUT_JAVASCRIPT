@@ -7,3 +7,8 @@
 function padRow() {
 }
 padRow();
+
+// step 2
+function padRow() {
+}
+const call = padRow();
