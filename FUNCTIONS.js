@@ -51,3 +51,11 @@ function getName() {
 // console.log(capturedReturnValue); // "Camper cat"
 
 // console.log(name); // reference error
+
+function padRow(name) {
+  const test = "Testing";
+  
+  return test;
+}
+const call = padRow("CamperChan");
+console.log(call);
