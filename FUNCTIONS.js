@@ -18,3 +18,10 @@ function padRow() {
 }
 const call = padRow();
 console.log(call);
+
+// step 4
+function padRow() {
+  return "Hello!";
+}
+const call = padRow();
+console.log(call);
