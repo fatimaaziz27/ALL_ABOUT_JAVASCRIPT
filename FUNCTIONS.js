@@ -38,3 +38,16 @@ function addTwoNumbers(num1,num2) {
 }
 const call = addTwoNumbers(3,3);
 console.log(call);
+
+function getName() {
+  const name = "Camper cat";
+  return name;
+}
+
+
+// console.log(getName()); // "Camper cat"
+
+// const capturedReturnValue = getName();
+// console.log(capturedReturnValue); // "Camper cat"
+
+// console.log(name); // reference error
