@@ -27,7 +27,14 @@ const call = padRow();
 console.log(call);
 
 // With Parameters
+
 // function sayName(firstName, lastName) {
 //   return "John Doe";
 // }
 // sayName("Camper", "Cat");
+
+function addTwoNumbers(num1,num2) {
+  return num1 + num2;
+}
+const call = addTwoNumbers(3,3);
+console.log(call);
