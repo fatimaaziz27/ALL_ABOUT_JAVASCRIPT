@@ -12,3 +12,9 @@ padRow();
 function padRow() {
 }
 const call = padRow();
+
+// step 3
+function padRow() {
+}
+const call = padRow();
+console.log(call);
