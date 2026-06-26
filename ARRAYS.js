@@ -1,3 +1,4 @@
+//                      Array
 
 let array = [];
 let array = ["first", "second"];
