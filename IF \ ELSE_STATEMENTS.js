@@ -1,1 +1,4 @@
-
+// SYNTAX ------->
+// if (condition) {
+//   logic
+// }
