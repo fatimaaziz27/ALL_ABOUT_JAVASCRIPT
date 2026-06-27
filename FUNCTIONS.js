@@ -1,5 +1,5 @@
 // For Creating a Function ---->
-
+// Note that the order of operations rule PEMDAS—Parenthesis, Exponents, Multiplication, Division, Addition, Subtraction—applies
 // function name(parameter) {
 // }
 
