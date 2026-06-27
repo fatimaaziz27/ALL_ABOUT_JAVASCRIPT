@@ -1,5 +1,6 @@
-// For Creating a Function ---->
 // Note that the order of operations rule PEMDAS—Parenthesis, Exponents, Multiplication, Division, Addition, Subtraction—applies
+
+// SYNTAX ------->
 // function name(parameter) {
 // }
 
@@ -28,6 +29,7 @@ console.log(call);
 
 // With Parameters
 
+// SYNTAX ------->
 // function sayName(firstName, lastName) {
 //   return "John Doe";
 // }
@@ -44,12 +46,10 @@ function getName() {
   return name;
 }
 
-
+// SYNTAX ------->
 // console.log(getName()); // "Camper cat"
-
 // const capturedReturnValue = getName();
 // console.log(capturedReturnValue); // "Camper cat"
-
 // console.log(name); // reference error
 
 function padRow(name) {
@@ -59,3 +59,26 @@ function padRow(name) {
 }
 const call = padRow("CamperChan");
 console.log(call);
+
+
+// Building a Pyramid Generator With JavaScript 
+
+const character = "#";
+const count = 27;
+const rows = [];
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+for (let i = 1; i <+ count; i++) {
+  rows.push(padRow(i, count));
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + row + "\n";
+}
+
+console.log(result);
