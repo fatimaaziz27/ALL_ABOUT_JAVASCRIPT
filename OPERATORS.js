@@ -1,3 +1,16 @@
+// JavaScript operators include:
+
+// - Arithmetic Operators
+// - Assignment Operators
+// - Comparison Operators
+// - Logical Operators
+// - Bitwise Operators
+// - Ternary Operator
+// - Type Operators
+// - Nullish Coalescing Operator (`??`)
+// - Optional Chaining Operator (`?.`)
+
+
 // Arithmetic Operators
 
 // | Operator | Example | Output |
