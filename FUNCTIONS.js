@@ -86,7 +86,7 @@ console.log(result);
 // CODE 2 ---->
 
 const character = "#";
-const count = 8;
+const count = 27;
 const rows = [];
 
 function padRow(rowNumber, rowCount) {
