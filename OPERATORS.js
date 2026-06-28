@@ -1,6 +1,6 @@
 // Arithmetic Operators
 
-// | Operator | Description | Example | Output |
+// | Operator | Example | Output |
 // | + | 5 + 3 | 8 |
 // | - | 5 - 3 | 2 |
 // | * | 5 * 3 | 15 |
@@ -10,9 +10,7 @@
 // | ++ | i++ | Adds 1 |
 // | -- | i-- | Subtracts 1 |
 
-### Example
-
-```javascript
+// Example ---->
 let a = 10;
 let b = 3;
 
@@ -22,28 +20,20 @@ console.log("Multiplication:", a * b);
 console.log("Division:", a / b);
 console.log("Modulus:", a % b);
 console.log("Power:", a ** b);
-```
 
----
+// Assignment Operators
 
-## 2. Assignment Operators
+// | Operator | Example | Equivalent To |
+// | = | x = 5 | Assign value |
+// | += | x += 2 | x = x + 2 |
+// | -= | x -= 2 | x = x - 2 |
+// | *= | x *= 2 | x = x * 2 |
+// | /= | x /= 2 | x = x / 2 |
+// | %= | x %= 2 | x = x % 2 |
 
-Used to assign values to variables.
+// Example ----->
 
-| Operator | Example | Equivalent To |
-|----------|---------|---------------|
-| `=` | `x = 5` | Assign value |
-| `+=` | `x += 2` | `x = x + 2` |
-| `-=` | `x -= 2` | `x = x - 2` |
-| `*=` | `x *= 2` | `x = x * 2` |
-| `/=` | `x /= 2` | `x = x / 2` |
-| `%=` | `x %= 2` | `x = x % 2` |
-
-### Example
-
-```javascript
 let x = 10;
-
 x += 5;
 console.log(x); // 15
 
@@ -55,72 +45,52 @@ console.log(x); // 24
 
 x /= 4;
 console.log(x); // 6
-```
 
----
+// Comparison Operators
 
-## 3. Comparison Operators
+// | Operator | Description |
+// | == | Equal value |
+// | === | Equal value and type |
+// | != | Not equal |
+// | !== | Not equal value or type |
+// | > | Greater than |
+// | < | Less than |
+// | >= | Greater than or equal |
+// | <= | Less than or equal |
 
-Used to compare two values.
+// Example ------>
 
-| Operator | Description |
-|----------|-------------|
-| `==` | Equal value |
-| `===` | Equal value and type |
-| `!=` | Not equal |
-| `!==` | Not equal value or type |
-| `>` | Greater than |
-| `<` | Less than |
-| `>=` | Greater than or equal |
-| `<=` | Less than or equal |
-
-### Example
-
-```javascript
 console.log(5 == "5");   // true
 console.log(5 === "5");  // false
 console.log(10 > 5);     // true
 console.log(10 <= 5);    // false
-```
 
----
+// Logical Operators
 
-## 4. Logical Operators
+// | Operator | Description |
+// | && | Logical AND |
+// | || | Logical OR |
+// | ! | Logical NOT |
 
-Used with Boolean values.
+// Example ------>
 
-| Operator | Description |
-|----------|-------------|
-| `&&` | Logical AND |
-| `||` | Logical OR |
-| `!` | Logical NOT |
-
-### Example
-
-```javascript
 let age = 20;
 
 console.log(age > 18 && age < 30); // true
 console.log(age > 25 || age < 30); // true
 console.log(!(age > 18));          // false
-```
 
----
-
-## 5. Bitwise Operators
-
-Operate on binary numbers.
+// Bitwise Operators
 
 | Operator | Description |
-|----------|-------------|
-| `&` | AND |
-| `|` | OR |
-| `^` | XOR |
-| `~` | NOT |
-| `<<` | Left Shift |
-| `>>` | Right Shift |
+| & | AND |
+| | | OR |
+| ^ | XOR |
+| ~ | NOT |
+| << | Left Shift |
+| >> | Right Shift |
 
-### Example
+// Example ----->
 
 ```javascript
 console.log(5 & 1);
