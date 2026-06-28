@@ -127,38 +127,12 @@ console.log(username ?? "Guest");
 // Output
 // Guest
 
-## 9. Optional Chaining (`?.`)
+// Optional Chaining (`?.`)
 
-Safely accesses object properties without causing an error if a property doesn't exist.
+// Example
 
-### Example
-
-```javascript
 let user = {};
-
 console.log(user.address?.city);
-```
 
-**Output**
-
-```
-undefined
-```
-
----
-
-# Summary
-
-JavaScript operators include:
-
-- Arithmetic Operators
-- Assignment Operators
-- Comparison Operators
-- Logical Operators
-- Bitwise Operators
-- Ternary Operator
-- Type Operators
-- Nullish Coalescing Operator (`??`)
-- Optional Chaining Operator (`?.`)
-
-These operators are used for calculations, comparisons, logical operations, assigning values, checking data types, and writing cleaner JavaScript code.
+// Output
+// undefined
