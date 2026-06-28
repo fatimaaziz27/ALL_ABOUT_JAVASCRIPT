@@ -102,9 +102,7 @@ console.log(5 | 1);
 // Example ----->
 
 let age = 18;
-
 let result = age >= 18 ? "Adult" : "Minor";
-
 console.log(result);
 
 // Type Operators
@@ -113,35 +111,21 @@ console.log(result);
 // | `typeof` | Returns the data type |
 // | `instanceof` | Checks if an object belongs to a class |
 
-### Example
+// Example ---->
 
-```javascript
 console.log(typeof "Hello"); // string
 console.log(typeof 100);     // number
 console.log(typeof true);    // boolean
-```
 
----
+// Nullish Coalescing Operator (`??`)
 
-## 8. Nullish Coalescing Operator (`??`)
+// Example ----->
 
-Returns the right value only if the left value is `null` or `undefined`.
-
-### Example
-
-```javascript
 let username = null;
-
 console.log(username ?? "Guest");
-```
 
-**Output**
-
-```
-Guest
-```
-
----
+// Output
+// Guest
 
 ## 9. Optional Chaining (`?.`)
 
