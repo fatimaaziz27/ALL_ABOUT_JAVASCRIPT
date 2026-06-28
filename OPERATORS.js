@@ -82,51 +82,36 @@ console.log(!(age > 18));          // false
 
 // Bitwise Operators
 
-| Operator | Description |
-| & | AND |
-| | | OR |
-| ^ | XOR |
-| ~ | NOT |
-| << | Left Shift |
-| >> | Right Shift |
+// | Operator | Description |
+// | & | AND |
+// | | | OR |
+// | ^ | XOR |
+// | ~ | NOT |
+// | << | Left Shift |
+// | >> | Right Shift |
 
 // Example ----->
 
-```javascript
 console.log(5 & 1);
 console.log(5 | 1);
-```
 
----
+// Ternary Operator
+// Syntax
+// condition ? valueIfTrue : valueIfFalse;
 
-## 6. Ternary Operator
+// Example ----->
 
-A shorthand for `if...else`.
-
-### Syntax
-
-```javascript
-condition ? valueIfTrue : valueIfFalse;
-```
-
-### Example
-
-```javascript
 let age = 18;
 
 let result = age >= 18 ? "Adult" : "Minor";
 
 console.log(result);
-```
 
----
+// Type Operators
 
-## 7. Type Operators
-
-| Operator | Description |
-|----------|-------------|
-| `typeof` | Returns the data type |
-| `instanceof` | Checks if an object belongs to a class |
+// | Operator | Description |
+// | `typeof` | Returns the data type |
+// | `instanceof` | Checks if an object belongs to a class |
 
 ### Example
 
