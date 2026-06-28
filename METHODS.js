@@ -41,26 +41,19 @@ numbers.push(4);
 
 // Example
 
-```javascript
 const student = {
   name: "Ali",
   age: 20
 };
 
 Object.keys(student);
-```
 
----
+// Math Methods
 
-# Math Methods
+// Syntax
+// Math.methodName();
 
-### Syntax
-
-```javascript
-Math.methodName();
-```
-
-### Example
+// Example
 
 ```javascript
 Math.sqrt(64);
