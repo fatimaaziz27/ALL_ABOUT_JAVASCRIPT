@@ -81,3 +81,78 @@ for (const row of rows) {
   result += row + "\n";
 }
 console.log(result);
+
+
+
+
+// Order of Operations
+// PEMDAS
+
+// Function
+function greet() {}
+greet();
+
+// Return
+function hello() {
+  return "Hello!";
+}
+console.log(hello());
+
+// Parameters
+function add(a, b) {
+  return a + b;
+}
+console.log(add(3, 3));
+
+// Local Variable
+function getName() {
+  const name = "Camper";
+  return name;
+}
+console.log(getName());
+
+// Pyramid Function
+const char = "#";
+function padRow(row, total) {
+  return " ".repeat(total - row) +
+         char.repeat(2 * row - 1) +
+         " ".repeat(total - row);
+}
+
+// for Loop Pyramid
+let rows = [];
+for (let i = 1; i <= 5; i++) {
+  rows.push(padRow(i, 5));
+}
+console.log(rows.join("\n"));
+
+// while Loop
+rows = [];
+while (rows.length < 5) {
+  rows.push(padRow(rows.length + 1, 5));
+}
+
+// Reverse Pyramid
+rows = [];
+for (let i = 5; i > 0; i--) {
+  rows.push(padRow(i, 5));
+}
+
+// Diamond
+rows = [];
+for (let i = 1; i <= 5; i++) rows.push(padRow(i, 5));
+for (let i = 4; i > 0; i--) rows.push(padRow(i, 5));
+
+// unshift()
+rows = [];
+for (let i = 1; i <= 5; i++) {
+  rows.unshift(padRow(i, 5));
+}
+
+// Toggle Direction
+let inverted = true;
+rows = [];
+for (let i = 1; i <= 5; i++) {
+  inverted ? rows.unshift(padRow(i, 5))
+           : rows.push(padRow(i, 5));
+}
