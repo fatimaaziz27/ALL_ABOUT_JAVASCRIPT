@@ -1,7 +1,5 @@
 // Quick Revision Notes ------->
 
-
-
 // Arrays
 let arr = [];
 let arr1 = ["a", "b"];
@@ -37,6 +35,12 @@ let first = arr1.shift();
 let obj = {};
 obj[2] = "weight";
 console.log(obj[2]);
+
+
+
+
+
+
 
 
 
@@ -81,6 +85,10 @@ for (const row of rows) {
   result += row + "\n";
 }
 console.log(result);
+
+
+
+
 
 
 
@@ -160,6 +168,9 @@ for (let i = 1; i <= 5; i++) {
 
 
 
+
+
+
 // SYNTAX ------->
 // if (condition) {
 //   logic
@@ -177,6 +188,9 @@ if ("") {
 } else {
   console.log("This is the else block");
 }
+
+
+
 
 
 
@@ -232,6 +246,9 @@ today.getFullYear();
 today.getMonth();
 today.getDate();
 today.getDay();
+
+
+
 
 
 
@@ -311,3 +328,49 @@ while (continueLoop) {
     continueLoop = false;
   } 
 }
+
+
+
+
+
+
+// Print
+console.log("Hello, World!");
+console.log("Let's build a pyramid!");
+
+// Variables
+let value;
+let word = "JavaScript";
+let count = 8;
+const char = "#";
+
+// Reassign
+let name = "Naomi";
+name = "CamperChan";
+
+// Undefined
+let second;
+console.log(second);
+
+// Math
+console.log(count + 1);
+
+// Pyramid (Hardcoded)
+console.log("    #    ");
+console.log("   ###   ");
+console.log("  #####  ");
+console.log(" ####### ");
+console.log("#########");
+
+// Pyramid (Variables)
+const r1 = "    #    ";
+const r2 = "   ###   ";
+const r3 = "  #####  ";
+const r4 = " ####### ";
+const r5 = "#########";
+
+console.log(r1);
+console.log(r2);
+console.log(r3);
+console.log(r4);
+console.log(r5);
