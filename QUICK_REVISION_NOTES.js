@@ -181,4 +181,54 @@ if ("") {
 
 
 
+// Methods = Functions inside objects
 
+// Object Method
+const person = {
+  greet() { return "Hello!"; }
+};
+person.greet();
+
+// String Methods
+let text = "JavaScript";
+text.length;
+text.toUpperCase();
+text.toLowerCase();
+text.includes("Script");
+text.slice(0, 4);
+text.replace("Java", "Type");
+text.repeat(2);
+text.trim();
+
+// Array Methods
+let arr = [1, 2, 3];
+arr.push(4);
+arr.pop();
+arr.unshift(0);
+arr.shift();
+arr.includes(2);
+arr.indexOf(2);
+arr.join("-");
+arr.reverse();
+
+// Object Methods
+const student = { name: "Ali", age: 20 };
+Object.keys(student);
+Object.values(student);
+Object.entries(student);
+
+// Math Methods
+Math.random();
+Math.floor(4.9);
+Math.ceil(4.1);
+Math.round(4.5);
+Math.max(1, 5, 3);
+Math.min(1, 5, 3);
+Math.sqrt(64);
+
+// Date Methods
+const today = new Date();
+today.getFullYear();
+today.getMonth();
+today.getDate();
+today.getDay();
