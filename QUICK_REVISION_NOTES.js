@@ -290,3 +290,24 @@ user ?? "Guest";
 // Optional Chaining
 let obj = {};
 obj.address?.city;
+
+
+
+
+
+
+// SYNTAX ---->
+// while (condition) {
+//   logic;
+// }
+
+let continueLoop = false;
+let done = 0;
+
+while (continueLoop) {
+  done++;
+
+  if (done === count) {
+    continueLoop = false;
+  } 
+}
