@@ -232,3 +232,61 @@ today.getFullYear();
 today.getMonth();
 today.getDate();
 today.getDay();
+
+
+
+
+
+// JavaScript Operators
+
+// Arithmetic
+let a = 10, b = 3;
+a + b; a - b; a * b; a / b;
+a % b; a ** b;
+a++; b--;
+
+// Assignment
+let x = 10;
+x += 5; x -= 2;
+x *= 2; x /= 2;
+x %= 3;
+
+// Comparison
+5 == "5";
+5 === "5";
+5 != "5";
+5 !== "5";
+10 > 5;
+10 < 5;
+10 >= 5;
+10 <= 5;
+
+// Logical
+true && false;
+true || false;
+!true;
+
+// Bitwise
+5 & 1;
+5 | 1;
+5 ^ 1;
+~5;
+5 << 1;
+5 >> 1;
+
+// Ternary
+let age = 18;
+let result = age >= 18 ? "Adult" : "Minor";
+
+// Type
+typeof "Hello";
+typeof 100;
+[] instanceof Array;
+
+// Nullish
+let user = null;
+user ?? "Guest";
+
+// Optional Chaining
+let obj = {};
+obj.address?.city;
