@@ -2,7 +2,7 @@
 
 A comprehensive collection of JavaScript programs, practice exercises, notes, and mini projects covering fundamental to intermediate JavaScript concepts. This repository is designed to strengthen problem-solving skills and build a solid foundation in modern JavaScript.
 
-## 📚 Topics Covered
+##  Topics Covered
 
 * Variables and Data Types
 * Operators
@@ -25,13 +25,7 @@ A comprehensive collection of JavaScript programs, practice exercises, notes, an
 * Practice Exercises
 * Mini Projects
 
-## 🛠️ Technologies Used
-
-* JavaScript (ES6+)
-* HTML5
-* CSS3
-
-## 🎯 Purpose
+##  Purpose
 
 This repository was created to:
 
@@ -40,7 +34,7 @@ This repository was created to:
 * Build a strong foundation for frontend development
 * Prepare for real-world web development projects
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 ALL_ABOUT_JAVASCRIPT/
@@ -58,31 +52,7 @@ ALL_ABOUT_JAVASCRIPT/
 └── README.md
 ```
 
-## 🚀 How to Run
+##  Learning Resources
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/fatimaaziz27/ALL_ABOUT_JAVASCRIPT.git
-```
-
-2. Open the project in Visual Studio Code.
-
-3. Open the HTML file in your browser or run it using the **Live Server** extension.
-
-## 📖 Learning Resources
-
-* MDN Web Docs
-* JavaScript.info
 * freeCodeCamp
 * W3Schools
-
-## 🤝 Contributing
-
-Suggestions, improvements, and corrections are always welcome.
-
-## 👩‍💻 Author
-
-**Fatima Aziz**
-
-GitHub: https://github.com/fatimaaziz27
