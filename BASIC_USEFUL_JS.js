@@ -25,17 +25,15 @@
 // String split()
 
 
-Interpolation
-HTML Templates
-  
-<!DOCTYPE html>
-<html>
-<body>
-<h1>JavaScript Template Strings</h1>
 
-<p id="demo"></p>
-
-<script>
+// Interpolation
+// HTML Templates  
+// <!DOCTYPE html>
+// <html>
+// <body>
+// <h1>JavaScript Template Strings</h1>
+// <p id="demo"></p>
+// <script>
 let header = "Template Strings";
 let tags = ["template strings", "javascript", "es6"];
 
@@ -44,10 +42,8 @@ let html = `<h2>${header}</h2><ul>`;
 for (const x of tags) {
   html += `<li>${x}</li>`;
 }
-
 html += `</ul>`;
 document.getElementById("demo").innerHTML = html;
-</script>
-
-</body>
-</html>
+// </script>
+// </body>
+// </html>
