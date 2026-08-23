@@ -1,3 +1,15 @@
+// From Basic ---->
+// Code 1:
+  function sayHello() {
+  return "Hello World";
+}
+let greeting = sayHello();
+document.getElementById("demo").innerHTML = greeting;
+
+// Code 1:
+
+
+
 // Note that the order of operations rule PEMDAS—Parenthesis, Exponents, Multiplication, Division, Addition, Subtraction—applies
 
 // SYNTAX ------->
