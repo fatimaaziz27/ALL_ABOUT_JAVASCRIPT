@@ -26,9 +26,13 @@ function myFunction(x, y = 10) {
 }
 myFunction(5);
 
+// Parameters vs. Arguments
+// Parameters are the names listed in the function definition.
+// Arguments are the real values passed to, and received by the function.
+
+
 
 // Note that the order of operations rule PEMDAS—Parenthesis, Exponents, Multiplication, Division, Addition, Subtraction—applies
-
 // SYNTAX ------->
 // function name(parameter) {
 // }
