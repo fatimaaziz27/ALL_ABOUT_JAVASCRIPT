@@ -63,6 +63,22 @@ function multiply(a, b) {
 }
 let result = multiply(4, 5);
 
+// Code 6:
+// Function Expressions
+// Standard Function
+function multiply(a, b) {
+  return a * b;
+}
+// Function Expression
+const multiply = function(a, b) {
+  return a * b;
+};
+
+// Code 7:
+// Anonymous Functions
+const add = function add(a, b) {return a + b;};
+
+
 
 // Note that the order of operations rule PEMDAS—Parenthesis, Exponents, Multiplication, Division, Addition, Subtraction—applies
 // SYNTAX ------->
