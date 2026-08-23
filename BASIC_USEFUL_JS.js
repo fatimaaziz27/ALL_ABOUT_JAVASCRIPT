@@ -1,5 +1,4 @@
 // Basic String Methods
-
 // String length
 // String charAt()
 // String charCodeAt()
@@ -51,7 +50,6 @@ document.getElementById("demo").innerHTML = html;
 
 
 // String Search Methods
-
 // String indexOf()
 // String lastIndexOf()
 // String search()
@@ -65,7 +63,6 @@ document.getElementById("demo").innerHTML = html;
 
 // Basic Methods
 // Basic number methods can be used on any number:
-
 // toString()
 // toExponential()
 // toFixed()
@@ -76,7 +73,6 @@ document.getElementById("demo").innerHTML = html;
 
 // Static Methods
 // Static methods can only be used on Number:
-
 // Number.isFinite()
 // Number.isInteger()
 // Number.isNan()
