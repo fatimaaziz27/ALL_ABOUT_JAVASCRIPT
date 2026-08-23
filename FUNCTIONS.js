@@ -27,9 +27,41 @@ function myFunction(x, y = 10) {
 myFunction(5);
 
 // Parameters vs. Arguments
-// Parameters are the names listed in the function definition.
-// Arguments are the real values passed to, and received by the function.
 
+// Parameters are the names listed in the function definition.
+function multiply(a, b) {
+  return a * b;
+}
+let result = multiply(4, 5);
+
+// Arguments are the real values passed to, and received by the function.
+x = findMax(1, 123, 500, 115, 44, 88);
+
+function findMax() {
+  let max = -Infinity;
+  for (let i = 0; i < arguments.length; i++) {
+    if (arguments[i] > max) {
+      max = arguments[i];
+    }
+  }
+  return max;
+}
+//       OR
+x = sumAll(1, 123, 500, 115, 44, 88);
+function sumAll() {
+  let sum = 0;
+  for (let i = 0; i < arguments.length; i++) {
+    sum += arguments[i];
+  }
+  return sum;
+}
+
+// Code 5:
+// Return Func
+function multiply(a, b) {
+  return a * b;
+}
+let result = multiply(4, 5);
 
 
 // Note that the order of operations rule PEMDAS—Parenthesis, Exponents, Multiplication, Division, Addition, Subtraction—applies
