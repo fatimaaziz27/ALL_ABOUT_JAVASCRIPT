@@ -7,7 +7,11 @@ let greeting = sayHello();
 document.getElementById("demo").innerHTML = greeting;
 
 // Code 1:
-
+function add(a, b) {
+  return a + b;
+}
+let sum1 = add(5, 5);
+let sum2 = add(50, 50);
 
 
 // Note that the order of operations rule PEMDAS—Parenthesis, Exponents, Multiplication, Division, Addition, Subtraction—applies
