@@ -24,7 +24,7 @@
 // String replaceAll()
 // String split()
 
-
+HTML Templates
 <!DOCTYPE html>
 <html>
 <body>
