@@ -24,7 +24,10 @@
 // String replaceAll()
 // String split()
 
+
+Interpolation
 HTML Templates
+  
 <!DOCTYPE html>
 <html>
 <body>
