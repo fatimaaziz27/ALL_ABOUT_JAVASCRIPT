@@ -100,52 +100,35 @@ const person = {
   age: 30,
   city: "New York"
 };
-
 // Build a Text
 let text = "";
 for (let x in person) {
   text += person[x] + " ";
 };
-You must use person[x] in the loop.
-
-person.x will not work (Because x is the loop variable).
-
-REMOVE ADS
 
 Using Object.values()
-Object.values() creates an array from the property values:
-
 // Create an Object
 const person = {
   name: "John",
   age: 30,
   city: "New York"
 };
-
 // Create an Array
 const myArray = Object.values(person);
-
 // Stringify the Array
 let text = myArray.toString();
-Using Object.entries()
-Object.entries() makes it simple to use objects in loops:
 
+Using Object.entries()
 Example
 const fruits = {Bananas:300, Oranges:200, Apples:500};
-
 let text = "";
 for (let [fruit, value] of Object.entries(fruits)) {
   text += fruit + ": " + value + "<br>";
 }
+
 Using JSON.stringify()
-JavaScript objects can be converted to a string with JSON method JSON.stringify().
-
-JSON.stringify() is included in JavaScript and supported in all browsers.
-
 The result will be a string written in JSON notation:
-
 {"name":"John","age":50,"city":"New York"}
-
 Example
 // Create an Object
 const person = {
@@ -153,7 +136,6 @@ const person = {
   age: 30,
   city: "New York"
 };
-
 // Stringify Object
 let text = JSON.stringify(person);
 
