@@ -150,9 +150,6 @@ const person = {
 let text = JSON.stringify(person);
 
 
-
-
-
 JavaScript Object Constructors
 Object Constructor Functions
 Sometimes we need to create many objects of the same type.
