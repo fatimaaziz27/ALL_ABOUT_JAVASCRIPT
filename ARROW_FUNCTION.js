@@ -1,43 +1,43 @@
-Arrow Functions
+// Arrow Functions
 const multiply = (a, b) => a * b;
 
-Example
+// Example
 const add = (a, b) => {
   return a + b;
 };
 
-Shorter Syntax
+// Shorter Syntax
 const multiply = function(a, b) {return a * b}
-With Arrow
+// With Arrow
 const multiply = (a, b) => a * b;
-With Arrow
+// With Arrow
 const hello = () => "Hello World!";
 
-Before Arrow
+// Before Arrow
 const hello = function() {return "Hello World!";}
 
-Without Parantheses
+// Without Parantheses
 const square = x => x * x;
-With Parantheses
+// With Parantheses
 const hello = (val) => "Hello " + val;
 
-You can remove the brackets and the return keyword:
-Example
+// You can remove the brackets and the return keyword:
+// Example
 const hello = () => "Hello World!";
 
-Arrow Function Parameters
-Example
+// Arrow Function Parameters
+// Example
 const hello = (val) => "Hello " + val;
 
-If you have only one parameter
-Example
+// If you have only one parameter
+// Example
 const hello = val => "Hello " + val;
 
-No Parameters
-With Arrow Function:
+// No Parameters
+// With Arrow Function:
 const hello = () => "Hello World!";
 
-Examples
+// Examples
 // This will return undefined
 const myFunction = (x, y) => { x * y };
 
