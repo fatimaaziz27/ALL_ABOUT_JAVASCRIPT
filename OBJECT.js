@@ -10,6 +10,7 @@ const person = {
   }
 };
 
+
 // The this Keyword
 // Example 1
 const person = {
@@ -22,6 +23,7 @@ const person = {
 };
 let number = person.getId();
 
+
 // Example 2
 const person = {
   firstName: "John",
@@ -32,11 +34,13 @@ const person = {
   }
 };
 
+
 // Accessing Object Methods
 // Syntax
 // objectName.methodName()
 // Example
 name = person.fullName();
+
 
 // Adding a method to an object by assigning a function to a property:
 // Example
@@ -45,12 +49,14 @@ person.name = function () {
   return this.firstName + " " + this.lastName;
 };
 
+
 // Adding a JavaScript Method
 // toUpperCase() method 
 // Example
 person.name = function () {
   return (this.firstName + " " + this.lastName).toUpperCase();
 };
+
 
 // this Keyword
 // Example
@@ -63,6 +69,7 @@ const person = {
   }
 };
 
+
 // The this keyword makes it possible to use the same method with different objects.
 // Example
 const person1 = {
@@ -71,15 +78,14 @@ const person1 = {
     return "Hello " + this.name;
   }
 };
-
 const person2 = {
   name: "Anna",
   hello: function() {
     return "Hello " + this.name;
   }
 };
-
 document.getElementById("demo").innerHTML = person1.hello();
+
 
 // JavaScript Display Objects
 // Example
@@ -91,6 +97,7 @@ const person = {
 };
 // Add Properties
 let text = person.name + "," + person.age + "," + person.city;
+
 
 // Using a For .. In Loop
 // Example
@@ -106,7 +113,8 @@ for (let x in person) {
   text += person[x] + " ";
 };
 
-Using Object.values()
+
+// Using Object.values()
 // Create an Object
 const person = {
   name: "John",
@@ -118,18 +126,20 @@ const myArray = Object.values(person);
 // Stringify the Array
 let text = myArray.toString();
 
-Using Object.entries()
-Example
+
+// Using Object.entries()
+// Example
 const fruits = {Bananas:300, Oranges:200, Apples:500};
 let text = "";
 for (let [fruit, value] of Object.entries(fruits)) {
   text += fruit + ": " + value + "<br>";
 }
 
-Using JSON.stringify()
-The result will be a string written in JSON notation:
-{"name":"John","age":50,"city":"New York"}
-Example
+
+// Using JSON.stringify()
+// The result will be a string written in JSON notation:
+// {"name":"John","age":50,"city":"New York"}
+// Example
 // Create an Object
 const person = {
   name: "John",
@@ -138,16 +148,6 @@ const person = {
 };
 // Stringify Object
 let text = JSON.stringify(person);
-
-
-
-
-
-
-
-
-
-
 
 
 
